@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= __('privacy_policy')%>
+  </title>
+  <%- include ("../partials/header.ejs") %>
+</head>
+
+<body>
+
+  <%- include ("../partials/nav.ejs") %>
+
+    <div class="container privacy-container">
+      <div class="row">
+        <h1>
+          <%= __('privacy_policy')%>
+        </h1>
+        <p>
+          <%= __('privacy_policy_updated_at')%>
+        </p>
+        <ol>
+          <li>
+            <%= __('privacy_policy_summary_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_summary_paragraph_1')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_summary_paragraph_2')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_collect_personal_data_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_collect_personal_data_paragraph_1')%>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;<strong> <%= __('web_sites')%></strong>
+            <%= __('privacy_policy_collect_personal_data_paragraph_2')%>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;<strong> <%= __('apps')%></strong>
+            <%= __('privacy_policy_collect_personal_data_paragraph_3')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_collect_personal_data_paragraph_4_1')%>
+              <strong><%= __('no')%></strong>
+              <%= __('privacy_policy_collect_personal_data_paragraph_4_2')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_collect_personal_data_paragraph_5')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_collect_personal_data_paragraph_6')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_use_personal_data_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_use_personal_data_paragraph_1_1')%>
+              <strong><%= __('no')%></strong>
+              <%= __('privacy_policy_use_personal_data_paragraph_1_2')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_share_personal_data_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_share_personal_data_paragraph_1_1')%>
+              <strong><%= __('no')%></strong>
+              <%= __('privacy_policy_share_personal_data_paragraph_1_2')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_used_tech_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_used_tech_paragraph_1_1')%>
+              <strong><%= __('No')%></strong>
+              <%= __('privacy_policy_used_tech_paragraph_1_2')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_used_tech_paragraph_2')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_security_personal_data_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_security_personal_data_paragraph_1_1')%>
+              <strong><%= __('no')%></strong>
+              <%= __('privacy_policy_security_personal_data_paragraph_1_2')%>
+          </p>
+          <p>
+            <%= __('privacy_policy_security_personal_data_paragraph_2')%>
+          </p>
+          <li>
+            <%= __('privacy_policy_history_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_history_paragraph_1')%>
+          </p>
+
+          <li>
+            <%= __('privacy_policy_contact_section')%>
+          </li>
+          <p>
+            <%= __('privacy_policy_contact_paragraph_1')%>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;<strong><%= __('email')%></strong>
+            <a href="mailto:dejavite.tech@gmail.com">dejavite.tech@gmail.com</a>
+          </p>
+          <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;<strong><%= __('play_store')%></strong>
+            <a href="https://play.google.com/store/apps/details?id=com.rtg_app">
+              <%= __('store_link')%>
+            </a>
+          </p>
+        </ol>
+      </div>
+      <!-- row -->
+      <hr>
+    </div>
+
+
+</body>
+
+<footer class="footer">
+  <div class="container">
+    <p>
+      <strong>
+      <%=__('contact')%>: 
+      </strong>
+      <a href="mailto:dejavite.tech@gmail.com">dejavite.tech@gmail.com</a>
+    </p>
+    <strong>
+    <a href="mailto:dejavite.tech@gmail.com">
+      <%=__('privacy_policy')%>
+    </a>
+    </strong>
+  </div>
+</footer>
+
+</html>
